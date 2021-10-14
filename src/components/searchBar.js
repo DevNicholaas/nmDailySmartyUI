@@ -22,7 +22,7 @@ class SearchBar extends Component {
         )
     }
 }
-SearchBar = reduxForm({
+SearchBar = ReduxForm({
     form: 'searchBar'
 })(SearchBar);
 
